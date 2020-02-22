@@ -1,0 +1,22 @@
+{
+    "name": "huzer/el4s_0221",
+    "authors": [
+        {
+            "name": "Koki Yamamoto",
+            "email": "yamakoh.dev@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "php -S localhost:8080 -t public"
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.0",
+        "nyholm/psr7": "^1.2",
+        "nyholm/psr7-server": "^0.4.1",
+        "guzzlehttp/psr7": "^1.6",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "php-di/php-di": "^6.0",
+        "ext-pdo_sqlite": "*"
+    }
+}
